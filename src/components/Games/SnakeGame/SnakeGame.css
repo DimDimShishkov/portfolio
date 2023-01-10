@@ -1,0 +1,112 @@
+.snakegame {
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 20px 0;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./../images/img-overlay2.png);
+  border-radius: 10px;
+
+}
+
+.snakegame__container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.snake {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: aqua;
+  border: 1px solid red;
+}
+
+.cardgame__textcontainer {
+  color: antiquewhite;
+}
+
+.cardgame__heading {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+  margin: 0;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.cardgame__subheading {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.cardgame__gamecontainer {
+  margin: 20px 0;
+}
+.cardgame__points {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 auto;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.cardgame__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 auto;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.cardgame__button {
+  padding: 10px;
+  margin: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  box-shadow: none;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: antiquewhite;
+}
+
+.cardgame__button:hover {
+  opacity: 0.8;
+}
+
+.cardgame__button_disabled {
+  background: none;
+  color: #000000;
+  opacity: 0.8;
+}
+
+
+/*     <div className="cardgame">
+    <div className="cardgame__textcontainer">
+      <h2 className="cardgame__heading">Карточная игра.</h2>
+      <p className="cardgame__subheading">Вы состязаетесь с ботом, кто быстрее наберет 21 очко.</p>
+    </div>
+    <div className="cardgame__gamecontainer">
+      <h3 className="cardgame__points">{`Сейчас набрано ${points} очков. Ваш опонент набрал ${opponentPoints} очков`}</h3>
+      <p className="cardgame__text">{cardText}</p>
+      <button className={`cardgame__button ${'cardgame__button_disabled'}`} onClick={startGame}>
+        Взять карту
+      </button>
+      <button className={`cardgame__button`} onClick={resetGame}>
+        Начать новую игру
+      </button>
+    </div>
+  </div> */

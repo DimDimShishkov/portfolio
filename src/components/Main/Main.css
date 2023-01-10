@@ -1,0 +1,159 @@
+.main {
+  padding: 60px 0;
+  width: 100%;
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url(./../../images/img-overlay.jpg); */
+  /* background-color: #ddd48f; */
+  background: rgb(230, 230, 230);
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    padding: 20px 0;
+  }
+}
+
+.main__containers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+  .main__containers {
+    justify-content: space-around;
+    margin: 0 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main__containers {
+    margin: 0 10px;
+  }
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  .main__container {
+    max-width: 100%;
+  }
+}
+
+.main__heading {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 58px;
+  margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .main__heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main__heading {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+.main__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 0;
+  letter-spacing: -0.04em;
+}
+
+@media screen and (max-width: 900px) {
+  .main__title {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main__title {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}
+
+.main__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
+  text-align: left;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 900px) {
+  .main__description {
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main__description {
+    font-size: 11px;
+    line-height: 16px;
+    max-width: 400px;
+  }
+}
+
+.main__ava {
+  max-width: 400px;
+  max-height: 400px;
+  -o-object-position: center top;
+  object-position: center top;
+}
+
+@media screen and (max-width: 900px) {
+  .main__ava {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+.main__items {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 5px;
+  justify-items: start;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}
+
+.main__link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s ease;
+}
+
+.main__link:hover {
+  opacity: 0.6;
+}
