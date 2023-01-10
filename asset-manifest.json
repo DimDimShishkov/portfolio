@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.43d1dc7c.css",
+    "main.js": "/portfolio/static/js/main.8dec38f8.js",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.328b9c0b09259a9108f4.png",
+    "static/media/img-overlay2.png": "/portfolio/static/media/img-overlay2.97f4adc5bee93868147b.png",
+    "static/media/Inter-Medium.woff?v=3.19": "/portfolio/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Black.woff?v=3.19": "/portfolio/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff?v=3.19": "/portfolio/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Medium.woff2?v=3.19": "/portfolio/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Black.woff2?v=3.19": "/portfolio/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2?v=3.19": "/portfolio/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/gloAcademy.png": "/portfolio/static/media/gloAcademy.2c817e10641992387b4a.png",
+    "static/media/habr.png": "/portfolio/static/media/habr.1b203ae7ac7eb08f7c73.png",
+    "static/media/UrFULogo.png": "/portfolio/static/media/UrFULogo.48123077eca14b3aaebe.png",
+    "static/media/hexlet.png": "/portfolio/static/media/hexlet.0f3edff7d47e3b71846a.png",
+    "static/media/tg.png": "/portfolio/static/media/tg.b87936e218148ef33eb2.png",
+    "index.html": "/portfolio/index.html",
+    "static/media/CloseIconDesctop.svg": "/portfolio/static/media/CloseIconDesctop.039f1f5203f653b4bacd.svg",
+    "static/media/CloseIconMobile.svg": "/portfolio/static/media/CloseIconMobile.622e8cdafa2222aa7c54.svg",
+    "main.43d1dc7c.css.map": "/portfolio/static/css/main.43d1dc7c.css.map",
+    "main.8dec38f8.js.map": "/portfolio/static/js/main.8dec38f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43d1dc7c.css",
+    "static/js/main.8dec38f8.js"
+  ]
+}
