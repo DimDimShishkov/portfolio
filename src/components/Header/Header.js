@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
 
 export const Header = ({
@@ -6,21 +6,19 @@ export const Header = ({
   setIsProjectPage,
   setIsExpPage,
   setIsSandboxPage,
+  setPageBlock,
 }) => {
   const [isStartPage, setStartPage] = React.useState(true);
   const [isProjectPage, setProjectPage] = React.useState(false);
   const [isExpPage, setExpPage] = React.useState(false);
   const [isSandboxPage, setSandboxPage] = React.useState(false);
-
   const [isMenuOpen, toggleMenuOpen] = React.useState(false);
-  function openMobileMenu() {
+
+  function handleSetPageBlock() {
     toggleMenuOpen(!isMenuOpen);
-    if (!isMenuOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "visible";
-    }
+    setPageBlock(!isMenuOpen);
   }
+
   const handleOpenNewPage = (e) => {
     let currentPage = e.target.name;
     switch (currentPage) {
@@ -43,6 +41,7 @@ export const Header = ({
         setIsExpPage(true);
         setSandboxPage(false);
         setIsSandboxPage(false);
+        isMenuOpen && handleSetPageBlock();
         break;
       case "project":
         setStartPage(false);
@@ -53,6 +52,7 @@ export const Header = ({
         setIsExpPage(false);
         setSandboxPage(false);
         setIsSandboxPage(false);
+        isMenuOpen && handleSetPageBlock();
         break;
       case "sandbox":
         setStartPage(false);
@@ -63,6 +63,7 @@ export const Header = ({
         setIsExpPage(false);
         setSandboxPage(true);
         setIsSandboxPage(true);
+        isMenuOpen && handleSetPageBlock();
         break;
       default:
         break;
@@ -81,13 +82,14 @@ export const Header = ({
             Обо мне
           </button>
         </div>
-        <div className="header__mobile" onClick={openMobileMenu}>
-          <span
-            className={`header__span ${
-              isMenuOpen ? "header__span_selected" : ""
-            }`}
-          ></span>
-        </div>
+
+        <div
+          onClick={handleSetPageBlock}
+          className={`header__mobile ${
+            isMenuOpen ? "header__mobile_active" : ""
+          }`}
+        />
+
         <div
           className={`header__items ${
             isMenuOpen ? "header__items_selected" : ""
@@ -127,7 +129,7 @@ export const Header = ({
           className={`header__overlay ${
             isMenuOpen ? "header__overlay_selected" : ""
           }`}
-          onClick={openMobileMenu}
+          onClick={handleSetPageBlock}
         ></div>
       </div>
     </nav>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Popup from "../Popup";
 import "./PopupProject.css";
 
@@ -17,10 +17,20 @@ export function PopupProject({ project, onClose }) {
           <p className="popup__description">
             Ссылки:{" "}
             <span className="popup__text">
-              <a className="popup__link" href={project.linkGitHib}>
+              <a
+                className="popup__link"
+                href={project.linkGitHib}
+                target="_blank"
+                rel="noreferrer"
+              >
                 GitHub
               </a>{" "}
-              <a className="popup__link" href={project.linkProject}>
+              <a
+                className="popup__link"
+                href={project.linkProject}
+                target="_blank"
+                rel="noreferrer"
+              >
                 Проект
               </a>
             </span>

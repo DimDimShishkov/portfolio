@@ -8,6 +8,7 @@
   padding: 5px;
   height: 250px;
   background: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 .projects__item:hover {

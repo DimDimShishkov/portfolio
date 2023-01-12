@@ -4,6 +4,8 @@ import "./Projects.css";
 import projectsArr from "./projectsArr.json";
 
 function Projects({ setCurrentProject }) {
+  const [scrollHeight, setScrollHeight] = useState(0);
+
   return (
     <section className="projects">
       <div className="projects__header">
@@ -31,3 +33,13 @@ function Projects({ setCurrentProject }) {
 }
 
 export default Projects;
+
+/* {
+  "title": "Интернет магазин",
+  "subtitle": "Интернет магазин с возможностью выбора товара и формирования корзины покупок с запросом к базе данных.",
+  "linkGitHib": "https://github.com/DimDimShishkov/Ozon",
+  "linkProject": "https://dimdimshishkov.github.io/Ozon",
+  "img": "../../projects/onlineshop.jpg",
+  "alt": "onlineshop",
+  "tags": ["JS", "CSS", "HTML", "mongoDB", "React"]
+}, */

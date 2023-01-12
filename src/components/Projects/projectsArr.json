@@ -1,56 +1,11 @@
 [
   {
-    "title": "Проект: Место",
-    "subtitle": "проект 'Mesto' на React с динамичным формированием карточек через Java Script и адаптивной версткой. В нём можно добавлять и удалять свои карточки, смотреть и лайкать карточки других пользователей, редактировать свои данные и фото аватара",
-    "linkGitHib": "https://github.com/DimDimShishkov/mesto-react",
-    "linkProject": "https://dimdimshishkov.github.io/mesto-react",
-    "img": "../../projects/mestoReact.png",
-    "alt": "mesto-react",
-    "tags": ["React", "JS", "CSS", "HTML", "Webpack"]
-  },
-  {
-    "title": "Путешествие по России",
-    "subtitle": "Адаптивный одностраничный сайт, созданный по макету Figma",
-    "linkGitHib": "https://github.com/DimDimShishkov/russian-travel",
-    "linkProject": "https://dimdimshishkov.github.io/russian-travel",
-    "img": "../../projects/across-russia.png",
-    "alt": "across-russia",
-    "tags": ["JS", "CSS", "HTML"]
-  },
-  {
-    "title": "Day/Night",
-    "subtitle": "Небольшой таск на закрепление навыка использования псевдоэлементов от наставника в Яндекс Практикум для студентов, опережающих график обучения. В нём можно изменять насыщенность фона через переключатель День / Ночь",
-    "linkGitHib": "https://github.com/DimDimShishkov/dayNight",
-    "linkProject": "https://dimdimshishkov.github.io/dayNight",
-    "img": "https://raw.githubusercontent.com/DimDimShishkov/dayNight/main/dayNight.gif",
-    "alt": "Day/Night",
-    "tags": ["CSS", "HTML"]
-  },
-  {
     "title": "Lubimovka",
     "subtitle": "Групповая работа для фестиваля “Любимовка” (некоммерческого коллективного проекта российских драматургов)",
     "linkGitHib": "https://github.com/DimDimShishkov/Lubimovka",
     "linkProject": "https://dimdimshishkov.github.io/Lubimovka",
-    "img": "../../projects/Lubimovka.png",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/Lubimovka/main/Lubimovka.gif",
     "alt": "Lubimovka",
-    "tags": ["JS", "CSS", "HTML", "GroupProject", "React"]
-  },
-  {
-    "title": "Интернет магазин",
-    "subtitle": "Интернет магазин с возможностью выбора товара и формирования корзины покупок с запросом к базе данных.",
-    "linkGitHib": "https://github.com/DimDimShishkov/Ozon",
-    "linkProject": "https://dimdimshishkov.github.io/Ozon",
-    "img": "../../projects/onlineshop.jpg",
-    "alt": "onlineshop",
-    "tags": ["JS", "CSS", "HTML", "mongoDB", "React"]
-  },
-  {
-    "title": "BOIZ Brewery",
-    "subtitle": "Сайт некоммерческой домашней пивоварни BOIZ Brewery",
-    "linkGitHib": "https://github.com/DimDimShishkov/brewing_start",
-    "linkProject": "https://dimdimshishkov.github.io/brewing_start",
-    "img": "../../projects/BlackWhite.jpg",
-    "alt": "BOIZ",
     "tags": ["JS", "CSS", "HTML", "GroupProject", "React"]
   },
   {
@@ -58,9 +13,29 @@
     "subtitle": "Планировщик задач на TypeScript и Redux с возможностью передвигать карточки при помощи Drag and Drop",
     "linkGitHib": "https://github.com/DimDimShishkov/ToDoApp-on-TS",
     "linkProject": "https://github.com/DimDimShishkov/ToDoApp-on-TS",
-    "img": "../../projects/BlackWhite.png",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/ToDoApp-on-TS/dev/todoTS.gif",
     "alt": "ToDoApp on TS",
     "tags": ["Redux", "TypeScript", "DragAndDrop", "React"]
+  },
+
+  {
+    "title": "Электронная очередь",
+    "subtitle": "Сайт некоммерческой домашней пивоварни BOIZ Brewery",
+    "linkGitHib": "https://github.com/DimDimShishkov/test_WaveAccess",
+    "linkProject": "https://dimdimshishkov.github.io/test_WaveAccess",
+    "img": "../../projects/BlackWhite.png",
+    "alt": "elQueue",
+    "tags": ["Redux Toolkit", "TypeScript", "React"]
+  },
+
+  {
+    "title": "Проект «Хинкальная»",
+    "subtitle": "Ресторан грузинской и европейской кухни с меню и возможностью бронирования стола.",
+    "linkGitHib": "https://github.com/DimDimShishkov/dumpling-redux",
+    "linkProject": "https://dimdimshishkov.github.io/dumpling-redux/",
+    "img": "../../projects/BlackWhite.png",
+    "alt": "dumpling",
+    "tags": ["Redux Toolkit", "TypeScript", "React"]
   },
   {
     "title": "Диплом «Movies Explorer»",
@@ -72,30 +47,39 @@
     "tags": ["React", "Node.js", "Express.js", "mongoDB"]
   },
   {
-    "title": "Электронная очередь",
-    "subtitle": "Сайт некоммерческой домашней пивоварни BOIZ Brewery",
-    "linkGitHib": "https://github.com/DimDimShishkov/test_WaveAccess",
-    "linkProject": "https://dimdimshishkov.github.io/test_WaveAccess",
-    "img": "../../projects/BlackWhite.png",
-    "alt": "elQueue",
-    "tags": ["Redux Toolkit", "TypeScript", "React"]
+    "title": "Day/Night",
+    "subtitle": "Небольшой таск на закрепление навыка использования псевдоэлементов от наставника в Яндекс Практикум для студентов, опережающих график обучения. В нём можно изменять насыщенность фона через переключатель День / Ночь",
+    "linkGitHib": "https://github.com/DimDimShishkov/dayNight",
+    "linkProject": "https://dimdimshishkov.github.io/dayNight",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/dayNight/main/dayNight.gif",
+    "alt": "Day/Night",
+    "tags": ["CSS", "HTML"]
   },
   {
-    "title": "Проект «Место» (фронт и бэк)",
-    "subtitle": "Проект, включающий фронтенд и бэкенд части приложения с возможностями авторизации и регистрации пользователей, операции с карточками и информацией пользователя.",
+    "title": "Проект «Место» (фронт)",
+    "subtitle": "проект 'Mesto' на React с динамичным формированием карточек через Java Script и адаптивной версткой. В нём можно добавлять и удалять свои карточки, смотреть и лайкать карточки других пользователей, редактировать свои данные и фото аватара. Проект сделан без регистрации пользователя с использованием бека от платформы Яндекс.Практикум",
+    "linkGitHib": "https://github.com/DimDimShishkov/mesto-react",
+    "linkProject": "https://dimdimshishkov.github.io/mesto-react",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/mesto/main/mesto.gif",
+    "alt": "mesto-react",
+    "tags": ["React", "JS", "CSS", "HTML", "Webpack"]
+  },
+  {
+    "title": "Проект «Место» (фронт и бек)",
+    "subtitle": "Проект, включающий фронтенд и бэкенд части приложения с возможностями авторизации и регистрации пользователей, операции с карточками и информацией пользователя. Проект сделан с регистрацией и авторизацией на сервере, что позволяет вернуться и редактировать свои данные",
     "linkGitHib": "https://github.com/DimDimShishkov/react-mesto-api-full",
     "linkProject": "https://mesto-shishkov.nomoredomains.icu/",
-    "img": "../../projects/BlackWhite.png",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/react-mesto-api-full/main/mesto-api-full.gif",
     "alt": "Mesto",
     "tags": ["React", "Node.js", "Express.js", "mongoDB"]
   },
   {
-    "title": "Проект «Хинкальная»",
-    "subtitle": "Ресторан грузинской и европейской кухни с меню и возможностью бронирования стола.",
-    "linkGitHib": "https://github.com/DimDimShishkov/dumpling-redux",
-    "linkProject": "https://dimdimshishkov.github.io/dumpling-redux/",
-    "img": "../../projects/BlackWhite.png",
-    "alt": "dumpling",
-    "tags": ["Redux Toolkit", "TypeScript", "React"]
+    "title": "Путешествие по России",
+    "subtitle": "Адаптивный одностраничный сайт, созданный по макету Figma",
+    "linkGitHib": "https://github.com/DimDimShishkov/russian-travel",
+    "linkProject": "https://dimdimshishkov.github.io/russian-travel",
+    "img": "../../../projects/across-russia.png",
+    "alt": "across-russia",
+    "tags": ["JS", "CSS", "HTML"]
   }
 ]
