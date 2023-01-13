@@ -39,8 +39,8 @@
   vertical-align: middle;
   -o-object-fit: contain;
   object-fit: contain;
-  max-width: 400px;
-  max-height: 200px;
+  width: 400px;
+  height: 193px;
 }
 
 @media screen and (max-width: 900px) {

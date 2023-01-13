@@ -13,7 +13,7 @@
     "subtitle": "Планировщик задач на TypeScript и Redux с возможностью передвигать карточки при помощи Drag and Drop",
     "linkGitHib": "https://github.com/DimDimShishkov/ToDoApp-on-TS",
     "linkProject": "https://github.com/DimDimShishkov/ToDoApp-on-TS",
-    "img": "https://raw.githubusercontent.com/DimDimShishkov/ToDoApp-on-TS/dev/todoTS.gif",
+    "img": "./public/projects/todoTS.mp4",
     "alt": "ToDoApp on TS",
     "tags": ["Redux", "TypeScript", "DragAndDrop", "React"]
   },
