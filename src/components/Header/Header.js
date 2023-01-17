@@ -1,17 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
+import { Link } from "react-scroll";
 import "./Header.css";
 
-export const Header = ({
-  setIsStartPage,
-  setIsProjectPage,
-  setIsExpPage,
-  setIsSandboxPage,
-  setPageBlock,
-}) => {
-  const [isStartPage, setStartPage] = React.useState(true);
-  const [isProjectPage, setProjectPage] = React.useState(false);
-  const [isExpPage, setExpPage] = React.useState(false);
-  const [isSandboxPage, setSandboxPage] = React.useState(false);
+export const Header = ({ setPageBlock }) => {
   const [isMenuOpen, toggleMenuOpen] = React.useState(false);
 
   function handleSetPageBlock() {
@@ -19,68 +10,29 @@ export const Header = ({
     setPageBlock(!isMenuOpen);
   }
 
-  const handleOpenNewPage = (e) => {
-    let currentPage = e.target.name;
-    switch (currentPage) {
-      case "start":
-        setStartPage(true);
-        setIsStartPage(true);
-        setProjectPage(false);
-        setIsProjectPage(false);
-        setExpPage(false);
-        setIsExpPage(false);
-        setSandboxPage(false);
-        setIsSandboxPage(false);
-        break;
-      case "exp":
-        setStartPage(false);
-        setIsStartPage(false);
-        setProjectPage(false);
-        setIsProjectPage(false);
-        setExpPage(true);
-        setIsExpPage(true);
-        setSandboxPage(false);
-        setIsSandboxPage(false);
-        isMenuOpen && handleSetPageBlock();
-        break;
-      case "project":
-        setStartPage(false);
-        setIsStartPage(false);
-        setProjectPage(true);
-        setIsProjectPage(true);
-        setExpPage(false);
-        setIsExpPage(false);
-        setSandboxPage(false);
-        setIsSandboxPage(false);
-        isMenuOpen && handleSetPageBlock();
-        break;
-      case "sandbox":
-        setStartPage(false);
-        setIsStartPage(false);
-        setProjectPage(false);
-        setIsProjectPage(false);
-        setExpPage(false);
-        setIsExpPage(false);
-        setSandboxPage(true);
-        setIsSandboxPage(true);
-        isMenuOpen && handleSetPageBlock();
-        break;
-      default:
-        break;
+  const handleOpenNewPage = () => {
+    if (isMenuOpen) {
+      toggleMenuOpen(!isMenuOpen);
+      setPageBlock(!isMenuOpen);
     }
   };
 
   return (
-    <nav className="header">
+    <header className="header">
       <div className="header__containers">
         <div className="header__headlink">
-          <button
-            className={`header__link ${isStartPage && "header__link_active"}`}
-            onClick={(e) => handleOpenNewPage(e)}
-            name="start"
+          <Link
+            className="header__link"
+            activeClass="header__link_active"
+            to="main"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={() => handleOpenNewPage()}
           >
-            Обо мне
-          </button>
+            обо мне
+          </Link>
         </div>
 
         <div
@@ -95,27 +47,30 @@ export const Header = ({
             isMenuOpen ? "header__items_selected" : ""
           }`}
         >
-          <button
-            className={`header__link ${isExpPage && "header__link_active"}`}
-            onClick={(e) => handleOpenNewPage(e)}
-            name="exp"
-          >
-            опыт
-          </button>
-          <button
-            className={`header__link ${isProjectPage && "header__link_active"}`}
-            onClick={(e) => handleOpenNewPage(e)}
-            name="project"
+          <Link
+            className="header__link"
+            activeClass="header__link_active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={() => handleOpenNewPage()}
           >
             проекты
-          </button>
-          <button
-            className={`header__link ${isSandboxPage && "header__link_active"}`}
-            onClick={(e) => handleOpenNewPage(e)}
-            name="sandbox"
+          </Link>
+          <Link
+            className="header__link"
+            activeClass="header__link_active"
+            to="experience"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={() => handleOpenNewPage()}
           >
-            песочница
-          </button>
+            опыт
+          </Link>
           <a
             href="https://github.com/DimDimShishkov"
             target="_blank"
@@ -132,6 +87,6 @@ export const Header = ({
           onClick={handleSetPageBlock}
         ></div>
       </div>
-    </nav>
+    </header>
   );
 };

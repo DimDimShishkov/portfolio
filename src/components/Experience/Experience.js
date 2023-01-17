@@ -100,10 +100,14 @@ function Experience() {
 
   return (
     <section className="experience">
-      <div className="experience__containers">
+      <div className="experience__header">
+        <h2 className="experience__heading">обучение и опыт</h2>
+      </div>
+
+      <div className="experience__body">
         <div className="experience__items">
           <div className="experience__container">
-            <h2 className="experience__heading">Высшее образование</h2>
+            <h2 className="experience__subheading">Высшее образование</h2>
             <div className="experience__subcontainer">
               <div className="experience__iconcontainer">
                 <i className="experience__icon icon__ufru" />
@@ -117,7 +121,8 @@ function Experience() {
 
               <div className="experience__subtextcontainer">
                 <p className="experience__maintext experience__desktop">
-                  УрФУ им. первого Президента России Б.Н. Ельцина
+                  Уральский Федеральный Университет им. первого Президента
+                  России Б.Н. Ельцина
                 </p>
                 <p className="experience__subtext experience__desktop">
                   2010 — 2015
@@ -131,7 +136,7 @@ function Experience() {
           </div>
 
           <div className="experience__container">
-            <h2 className="experience__heading">Образовательные курсы</h2>
+            <h2 className="experience__subheading">Образовательные курсы</h2>
             <div className="experience__subcontainer">
               <div className="experience__iconcontainer">
                 <i className="experience__icon icon__yapr" />
@@ -198,7 +203,7 @@ function Experience() {
         </div>
 
         <div className="experience__timelinecontainer">
-          <h2 className="experience__heading">Опыт работы</h2>
+          <h2 className="experience__subheading">Опыт работы</h2>
 
           <div className="experience__timeline">
             <div className="experience__points">
@@ -394,48 +399,31 @@ function Experience() {
                   <ul className="experience__workpoints">
                     <p className="experience__worktext">Обязанности:</p>
                     <li className="experience__workpoint">
-                      Контроль и организация плановых работ.
+                      Управление штатом из 8 электриков и 2 механиков.
                     </li>
-                    <li className="experience__workpoint">
-                      Управление штатом из 2 электриков и 2 механиков.
-                    </li>
-                    <li className="experience__workpoint">
-                      Замещение главы Электростанции собственных нужд в период
-                      отпуска.
-                    </li>
-
                     <li className="experience__workpoint">
                       Контроль над исправностью работы 4 турбинных генераторов
                       ПАЭС-2500М и 7 дизель-генераторами.
                     </li>
                     <li className="experience__workpoint">
-                      Пуско-наладка частотных преобразователей ATV61 (настройка
-                      ПИДрегулятора) и ATV71 (уточнение закона управления
-                      двигателем), устройств плавного пуска Astat Plus (проверка
-                      цепей управления, проверка надежности работы, замена
-                      неисправного вакуумного контактора).
+                      Пуско-наладка ЧРП ATV61 (настройка ПИДрегулятора) и ATV71
+                      (уточнение закона управления двигателем), УПП Astat Plus
+                      (настройка цепей управления и замена неисправного
+                      вакуумного контактора).
                     </li>
                     <p className="experience__worktext">Достижения:</p>
                     <li className="experience__workpoint">
-                      Благодарственные письма за проведение работ.
-                    </li>
-                    <li className="experience__workpoint">
-                      Прохождение курса энергетической эффективности.
-                    </li>
-                    <li className="experience__workpoint">
-                      Грамота почетного газовика на втором году работы.
+                      Благодарственные письма и грамота почетного газовика за
+                      проведение работ.
                     </li>
                     <li className="experience__workpoint">
                       Состоял в команде молодежного комитета (направление
                       научная деятельность).
                     </li>
                     <li className="experience__workpoint">
-                      5я группа по электробезопасности в электроустановках до и
-                      выше 1000В.
-                    </li>
-                    <li className="experience__workpoint">
-                      Аттестация в области охраны труда и промышленной
-                      безопасности.
+                      5я группа по электробезопасности до и выше 1000В и
+                      аттестация в области охраны труда и промышленной
+                      безопасности
                     </li>
                   </ul>
                 </div>
@@ -459,22 +447,9 @@ function Experience() {
                   <ul className="experience__workpoints">
                     <p className="experience__worktext">Обязанности:</p>
                     <li className="experience__workpoint">
-                      Диагностика неисправностей, поиск и предложение по
-                      устранению замечаний, конфигурация поездных систем.
-                    </li>
-                    <li className="experience__workpoint">
                       Разработка, улучшение и внесение изменений в план
-                      технического обслуживания.
-                    </li>
-                    <li className="experience__workpoint">
-                      Подготовка и разработка модификаций для подвижного
+                      технического обслуживания и модернизация подижного
                       состава.
-                    </li>
-
-                    <li className="experience__workpoint">
-                      Разработка технических заданий на техническое
-                      обслуживание, а также проверка их выполнения с анализом
-                      возможных доработок.
                     </li>
                     <li className="experience__workpoint">
                       Анализ логов с поиском неисправностей и замечаний при
@@ -484,10 +459,8 @@ function Experience() {
                       кондиционирования).
                     </li>
                     <li className="experience__workpoint">
-                      Подготовка отчетов и документации для клиента (ФПК).
-                    </li>
-                    <li className="experience__workpoint">
-                      Обучение персонала и представителей клиента.
+                      Подготовка отчетов, документации и обучение персонала для
+                      клиента (ФПК).
                     </li>
                     <p className="experience__worktext">Достижения:</p>
                     <li className="experience__workpoint">

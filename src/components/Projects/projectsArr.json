@@ -1,10 +1,10 @@
 [
   {
     "title": "Lubimovka",
-    "subtitle": "Групповая работа для фестиваля “Любимовка” (некоммерческого коллективного проекта российских драматургов)",
+    "subtitle": "Лендинг для фестиваля “Любимовка” (некоммерческого коллективного проекта российских драматургов). При работе использовали электронные таблицы Projects из инструментария GitHub для распределения обязанностей между участниками команды. Проект не входит в программу обучения и является дополнительным. Работа велась в группе из 5 человек. Моей задачей было разделение макета на задачи для команды, ревью написанного кода и внесение правок перед сдачей на проверку.",
     "linkGitHib": "https://github.com/DimDimShishkov/Lubimovka",
     "linkProject": "https://dimdimshishkov.github.io/Lubimovka",
-    "img": "https://raw.githubusercontent.com/DimDimShishkov/Lubimovka/main/Lubimovka.gif",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/portfolio/main/public/projects/Lubimovka.png",
     "alt": "Lubimovka",
     "tags": ["JS", "CSS", "HTML", "GroupProject", "React"]
   },
@@ -13,37 +13,37 @@
     "subtitle": "Планировщик задач на TypeScript и Redux с возможностью передвигать карточки при помощи Drag and Drop",
     "linkGitHib": "https://github.com/DimDimShishkov/ToDoApp-on-TS",
     "linkProject": "https://github.com/DimDimShishkov/ToDoApp-on-TS",
-    "img": "./public/projects/todoTS.mp4",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/portfolio/main/public/projects/gif/todoTS-min.gif",
     "alt": "ToDoApp on TS",
     "tags": ["Redux", "TypeScript", "DragAndDrop", "React"]
   },
 
   {
     "title": "Электронная очередь",
-    "subtitle": "Сайт некоммерческой домашней пивоварни BOIZ Brewery",
-    "linkGitHib": "https://github.com/DimDimShishkov/test_WaveAccess",
-    "linkProject": "https://dimdimshishkov.github.io/test_WaveAccess",
-    "img": "../../projects/BlackWhite.png",
+    "subtitle": "Тестовое задание с электронная очередь для клиники Sacred Heart Hospital, реализованная на Redux Toolkit. Изначально генерируются 10 талонов, можно записаться к определенному доктору и на определенное время или найти талон по его номеру и отредактировать тип и/или время записи. При достижении времени, указанного в талоне, появляется модальное окно с вызовом посетителя. Если талонов не осталось, появляется сообщение «На данный момент талонов нет»",
+    "linkGitHib": "https://github.com/DimDimShishkov/elQueue",
+    "linkProject": "https://dimdimshishkov.github.io/elQueue/",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/elQueue/main/src/images/elQueue.gif",
     "alt": "elQueue",
     "tags": ["Redux Toolkit", "TypeScript", "React"]
   },
 
   {
-    "title": "Проект «Хинкальная»",
-    "subtitle": "Ресторан грузинской и европейской кухни с меню и возможностью бронирования стола.",
+    "title": "Лендинг для кафе: «Хинкальная»",
+    "subtitle": "Ресторан грузинской и европейской кухни с меню и возможностью бронирования стола. Сайт реализован с адаптивностью под мобильные устройства. Представляет фронтенд приложения со следующими возможностями: добавление и удаление позиций из заказа, навигация по сайту, галерея с видами в кафе.",
     "linkGitHib": "https://github.com/DimDimShishkov/dumpling-redux",
     "linkProject": "https://dimdimshishkov.github.io/dumpling-redux/",
-    "img": "../../projects/BlackWhite.png",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/portfolio/main/public/projects/dumplings.png",
     "alt": "dumpling",
-    "tags": ["Redux Toolkit", "TypeScript", "React"]
+    "tags": ["Redux Toolkit", "React"]
   },
   {
     "title": "Диплом «Movies Explorer»",
     "subtitle": "Сервис, в котором можно найти фильмы по запросу и сохранить в личном кабинете. Пользователь вводит в строку поиска ключевые слова и нажимает кнопку «Искать».",
     "linkGitHib": "https://github.com/DimDimShishkov/movies-explorer-frontend",
     "linkProject": "https://movies-explorer-ddsh.nomoredomains.icu",
-    "img": "../../projects/BlackWhite.png",
-    "alt": "«Movies Explorer»",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/movies-explorer-frontend/main/movies-explorer-frontend.gif",
+    "alt": "Movies Explorer",
     "tags": ["React", "Node.js", "Express.js", "mongoDB"]
   },
   {
@@ -78,7 +78,7 @@
     "subtitle": "Адаптивный одностраничный сайт, созданный по макету Figma",
     "linkGitHib": "https://github.com/DimDimShishkov/russian-travel",
     "linkProject": "https://dimdimshishkov.github.io/russian-travel",
-    "img": "../../../projects/across-russia.png",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/portfolio/main/public/projects/across-russia.png",
     "alt": "across-russia",
     "tags": ["JS", "CSS", "HTML"]
   }

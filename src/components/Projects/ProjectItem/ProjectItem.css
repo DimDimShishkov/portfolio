@@ -92,7 +92,6 @@
 .projects__tags {
   display: flex;
   flex-direction: row;
-  gap: 5px;
 }
 
 .projects__tag {
@@ -100,6 +99,10 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
+}
+
+.projects__tag:not(:last-of-type) {
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 900px) {

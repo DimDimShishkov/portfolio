@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
 
-function Footer() {
+function Footer({ scrollToTop }) {
   return (
-    <section className="footer">
+    <footer className="footer">
       <div className="footer__containers">
         <div className="footer__container">
           <h2 className="footer__heading">Контакты</h2>
@@ -70,7 +70,10 @@ function Footer() {
           </ul>
         </div>
       </div>
-    </section>
+      <button className="footer__button" onClick={scrollToTop}>
+        <span className="footer__arrow" />
+      </button>
+    </footer>
   );
 }
 export default Footer;

@@ -1,44 +1,48 @@
 .experience {
-  padding: 60px 0;
   width: 100%;
-  flex: 1 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgb(230, 230, 230);
+  box-sizing: border-box;
 }
 
-.experience__containers {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+.experience__header {
   width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  padding: 20px 10px 40px;
 }
 
-@media screen and (max-width: 900px) {
-  .experience__containers {
-    justify-content: space-around;
-    margin: 0 20px;
-    width: 100%;
-  }
+.experience__heading {
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  font-size: 56px;
+  line-height: 70px;
 }
 
 @media screen and (max-width: 600px) {
-  .experience__containers {
-    margin: 0 10px;
+  .experience__heading {
+    font-size: 45px;
+    line-height: 48px;
   }
+}
+
+.experience__body {
+  width: 100%;
+  box-sizing: border-box;
+  background: rgb(230, 230, 230);
+  padding: 20px 0;
 }
 
 .experience__items {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 900px) {
@@ -49,7 +53,7 @@
   }
 }
 
-.experience__heading {
+.experience__subheading {
   font-weight: 600;
   font-size: 18px;
   line-height: 20px;
@@ -59,7 +63,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .experience__heading {
+  .experience__subheading {
     font-weight: 600;
     font-size: 16px;
     line-height: 18px;
@@ -199,10 +203,17 @@
   text-align: left;
 }
 
+@media screen and (max-width: 600px) {
+  .experience__text {
+    max-width: 300px;
+  }
+}
+
 .experience__timelinecontainer {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin: 40px 0 0;
 }
 
 .experience__timeline {
@@ -222,7 +233,7 @@
   height: 100px;
   max-width: 1000px;
   position: relative;
-  margin: 40px auto 0;
+  margin: 20px auto 0;
   cursor: pointer;
 }
 
@@ -366,12 +377,14 @@
 
 .experience__workcontainers {
   width: 800px;
+  min-height: 300px;
   margin: 20px 0 0;
 }
 
 @media screen and (max-width: 900px) {
   .experience__workcontainers {
     width: 560px;
+    min-height: 360px;
   }
 }
 

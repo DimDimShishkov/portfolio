@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
+import { animateScroll as scroll } from "react-scroll";
 import Experience from "../Experience/Experience";
+import { Feedback } from "../Feedback/Feedback";
 import Footer from "../Footer/Footer";
 import { Header } from "../Header/Header";
 import Main from "../Main/Main";
@@ -9,10 +11,6 @@ import Sandbox from "../Sandbox/Sandbox";
 import "./App.css";
 
 const App = () => {
-  const [isStartPage, setIsStartPage] = useState(true);
-  const [isProjectPage, setIsProjectPage] = useState(false);
-  const [isExpPage, setIsExpPage] = useState(false);
-  const [isSandboxPage, setIsSandboxPage] = useState(false);
   const [currentProject, setCurrentProject] = useState({});
   const [isPageBlock, setPageBlock] = useState(false);
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -41,23 +39,19 @@ const App = () => {
       : document.body.classList.remove("body_active");
   }, [isPageBlock]);
 
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <div className={`page ${isPageBlock && "page_active"}`}>
-      <Header
-        setIsStartPage={setIsStartPage}
-        setIsProjectPage={setIsProjectPage}
-        setIsExpPage={setIsExpPage}
-        setIsSandboxPage={setIsSandboxPage}
-        setPageBlock={setPageBlock}
-      />
-      {isStartPage && <Main />}
-      {isProjectPage && (
-        <Projects setCurrentProject={handleSetCurrentProject} />
-      )}
-      {isExpPage && <Experience />}
-      {isSandboxPage && <Sandbox />}
-
-      <Footer />
+      <Header setPageBlock={setPageBlock} />
+      <Main id="main" />
+      <Projects id="projects" setCurrentProject={handleSetCurrentProject} />
+      <Experience id="experience" />
+      {/* {isSandboxPage && <Sandbox />} */}
+      <Feedback />
+      <Footer scrollToTop={scrollToTop} />
       {currentProject.title && (
         <PopupProject project={currentProject} onClose={closeAllPopups} />
       )}

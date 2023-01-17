@@ -4,7 +4,7 @@ import ava from "./../../images/avatar.png";
 
 function Main() {
   return (
-    <div className="main">
+    <section className="main">
       <div className="main__containers">
         <div className="main__container">
           <h2 className="main__heading">Привет, Я&nbsp;Дима.</h2>
@@ -75,7 +75,7 @@ function Main() {
           <img src={ava} alt="ShishkovDimDim" className="main__ava"></img>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
