@@ -12,19 +12,19 @@ function Main() {
           <p className="main__description">
             Родился в Башкирии, получил высшее образование в Екатеринбурге.
             Первое место работы было за 14км от полярного круга в поселке
-            Заполярный. Женился в Москве и сейчас нахожусь в Ереване. Очень
-            люблю путешествовать и увлекаюсь бегом. В 2022 прошёл курс по
-            веб-разработке от Яндекс.Практикум, получил диплом (средний балл по
-            3 этапам составляет 99,6%) и сейчас ищу интересные проекты.
+            Заполярный. Очень люблю путешествовать и увлекаюсь бегом. В 2022
+            прошёл курс по веб-разработке от Яндекс.Практикум, получил диплом
+            (средний балл по 3 этапам составляет 99,6%) и сейчас ищу интересные
+            проекты.
           </p>
 
           <ul className="main__items">
-            <li className="main__description">Тел.:</li>
+            {/* <li className="main__description">Тел.:</li>
             <li className="main__description">
-              <a href="tel:+37455238259" className="main__link">
-                +374 55 238 259
-              </a>
-            </li>
+               <a href="tel:+37455238259" className="main__link">
+                +7 922 28 77 450
+              </a> 
+            </li> */}
             <li className="main__description">E-mail:</li>
             <li className="main__description">
               <a
@@ -57,7 +57,7 @@ function Main() {
               </a>
             </li>
             <li className="main__description">Проживает:</li>
-            <li className="main__description">Армения, Ереван</li>
+            <li className="main__description">Москва, Россия</li>
             <li className="main__description">Языки:</li>
             <li className="main__description">
               English B2: Upper-intermediate,
@@ -66,8 +66,8 @@ function Main() {
             <li className="main__description">Español А2: Nivel Basico 2</li>
             <li className="main__description">Стек:</li>
             <li className="main__description">
-              React, Webpack, Redux, JavaScript и TypeScript, Node.js и
-              Express.js, HTML и CSS, Git и mongoDB.
+              React, Webpack, Redux, Angular, JavaScript и TypeScript, Node.js и
+              Express.js, HTML, CSS и SaSS, Git и mongoDB.
             </li>
           </ul>
         </div>

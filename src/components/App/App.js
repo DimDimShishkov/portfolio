@@ -9,6 +9,7 @@ import { PopupProject } from "../Popup/PopupProject/PopupProject";
 import Projects from "../Projects/Projects";
 import Sandbox from "../Sandbox/Sandbox";
 import "./App.css";
+// import { BoardGame } from "../Games/BoardGame/BoardGame";
 
 const App = () => {
   const [currentProject, setCurrentProject] = useState({});
@@ -52,6 +53,7 @@ const App = () => {
       {/* {isSandboxPage && <Sandbox />} */}
       <Feedback />
       <Footer scrollToTop={scrollToTop} />
+      {/* <BoardGame /> */}
       {currentProject.title && (
         <PopupProject project={currentProject} onClose={closeAllPopups} />
       )}
