@@ -1,5 +1,23 @@
 [
   {
+    "title": "2048",
+    "subtitle": "Игра с целью набрать 2048 очков путем слияния ячеек",
+    "linkGitHib": "https://github.com/DimDimShishkov/2048game",
+    "linkProject": "https://github.com/DimDimShishkov/2048game",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/2048game/main/assets/game_example.gif",
+    "alt": "2048",
+    "tags": ["TypeScript", "React-native"]
+  },
+  {
+    "title": "Генератор персонажа DnD",
+    "subtitle": "Генератор персонажа для Dungeons & Dragons во вселенной «Костер»",
+    "linkGitHib": "https://github.com/DimDimShishkov/campfire",
+    "linkProject": "https://dimdimshishkov.github.io/campfire/",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/campfire/main/src/mockData/Example.png",
+    "alt": "DnD",
+    "tags": ["TypeScript", "Angular", "SCSS"]
+  },
+  {
     "title": "Lubimovka",
     "subtitle": "Лендинг для фестиваля “Любимовка” (некоммерческого коллективного проекта российских драматургов). При работе использовали электронные таблицы Projects из инструментария GitHub для распределения обязанностей между участниками команды. Проект не входит в программу обучения и является дополнительным. Работа велась в группе из 5 человек. Моей задачей было разделение макета на задачи для команды, ревью написанного кода и внесение правок перед сдачей на проверку.",
     "linkGitHib": "https://github.com/DimDimShishkov/Lubimovka",

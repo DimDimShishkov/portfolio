@@ -19,12 +19,6 @@ function Main() {
           </p>
 
           <ul className="main__items">
-            {/* <li className="main__description">Тел.:</li>
-            <li className="main__description">
-               <a href="tel:+37455238259" className="main__link">
-                +7 922 28 77 450
-              </a> 
-            </li> */}
             <li className="main__description">E-mail:</li>
             <li className="main__description">
               <a

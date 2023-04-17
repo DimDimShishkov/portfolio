@@ -9,11 +9,6 @@ function Footer({ scrollToTop }) {
           <h2 className="footer__heading">Контакты</h2>
           <ul className="footer__contacts">
             <li className="footer__contact">
-              <a href="tel:+37455238259" className="footer__link">
-                +374 55 238 259
-              </a>
-            </li>
-            <li className="footer__contact">
               <a
                 href="mailto:d.shishkov.russia@gmail.com"
                 className="footer__link"
