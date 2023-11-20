@@ -17,22 +17,30 @@ export function PopupProject({ project, onClose }) {
           <p className="popup__description">
             Ссылки:{" "}
             <span className="popup__text">
-              <a
-                className="popup__link"
-                href={project.linkGitHib}
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub
-              </a>{" "}
-              <a
-                className="popup__link"
-                href={project.linkProject}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Проект
-              </a>
+              {project.linkGitHib !== "NDA" ? (
+                <a
+                  className="popup__link"
+                  href={project.linkGitHib}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+              ) : (
+                <>NDA</>
+              )}{" "}
+              {project.linkProject !== "NDA" ? (
+                <a
+                  className="popup__link"
+                  href={project.linkProject}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Проект
+                </a>
+              ) : (
+                <>NDA</>
+              )}
             </span>
           </p>
         </div>

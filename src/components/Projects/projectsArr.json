@@ -1,5 +1,41 @@
 [
   {
+    "title": "ХелпДеск",
+    "subtitle": "Проект в процессе реализации в Боткинской больнице. Приложение (включая PWA), для заявок. В пользовательской версии можно создать, редактировать и отследить заявку, добавить комментарий, прикрепить файл к комментарию и, в случае изменения заявки исполнителем, на телефон прилетит уведомление. В админской версии можно создавать пользователей, назначать ответственных и координаторов по направлениям (сервисам), вести переписку с пользователем в отдельном чате, добавлять и редактировать статьи в «базе знаний» (FAQ) и составлять отчетности по каждому из пользователей.",
+    "linkGitHib": "NDA",
+    "linkProject": "NDA",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/movies-explorer-frontend/main/movies-explorer-frontend.gif",
+    "alt": "HD-rixap",
+    "tags": ["TypeScript", "React", "GroupProject", "SASS"]
+  },
+  {
+    "title": "ХД Бот",
+    "subtitle": "Бот в телеграмме, для создания и просмотра заявок из хелпдеска для Боткинской больницы",
+    "linkGitHib": "NDA",
+    "linkProject": "NDA",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/movies-explorer-frontend/main/movies-explorer-frontend.gif",
+    "alt": "HD-tg-bot",
+    "tags": ["TypeScript", "Node", "SQL"]
+  },
+  {
+    "title": "Ежедневник",
+    "subtitle": "Таск трекер с возможностями составления типовых заявлений и договоров, управлением платежами, проектами и оформлением отчетов о работе.",
+    "linkGitHib": "NDA",
+    "linkProject": "NDA",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/movies-explorer-frontend/main/movies-explorer-frontend.gif",
+    "alt": "TM-rixap",
+    "tags": ["TypeScript", "Next", "GroupProject", "SASS"]
+  },
+  {
+    "title": "Cranio-worldwide",
+    "subtitle": "Приложение для связи терапевтов и пациентов по всему миру включая Россию, Германию, Испанию, Англию и другие страны",
+    "linkGitHib": "https://github.com/Cranio-worldwide",
+    "linkProject": "https://cranio-worldwide.tk/ru/",
+    "img": "https://raw.githubusercontent.com/DimDimShishkov/movies-explorer-frontend/main/movies-explorer-frontend.gif",
+    "alt": "Cranio-worldwide",
+    "tags": ["TypeScript", "Next", "GroupProject", "SASS"]
+  },
+  {
     "title": "2048",
     "subtitle": "Игра с целью набрать 2048 очков путем слияния ячеек",
     "linkGitHib": "https://github.com/DimDimShishkov/2048game",

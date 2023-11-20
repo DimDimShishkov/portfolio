@@ -7,14 +7,14 @@ import { Header } from "../Header/Header";
 import Main from "../Main/Main";
 import { PopupProject } from "../Popup/PopupProject/PopupProject";
 import Projects from "../Projects/Projects";
-import Sandbox from "../Sandbox/Sandbox";
+// import Sandbox from "../Sandbox/Sandbox";
 import "./App.css";
 // import { BoardGame } from "../Games/BoardGame/BoardGame";
 
 const App = () => {
   const [currentProject, setCurrentProject] = useState({});
   const [isPageBlock, setPageBlock] = useState(false);
-  const [scrollHeight, setScrollHeight] = useState(0);
+  // const [scrollHeight, setScrollHeight] = useState(0);
 
   function closeAllPopups() {
     setCurrentProject({});
@@ -26,13 +26,14 @@ const App = () => {
     setPageBlock(true);
   }
 
-  function handleScrollHeight() {
-    setScrollHeight(window.scrollY);
-  }
-  useEffect(() => {
-    window.addEventListener("scroll", handleScrollHeight);
-    return () => window.removeEventListener("scroll", handleScrollHeight);
-  }, []);
+  // function handleScrollHeight() {
+  //   setScrollHeight(window.scrollY);
+  // }
+
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScrollHeight);
+  //   return () => window.removeEventListener("scroll", handleScrollHeight);
+  // }, []);
 
   useEffect(() => {
     isPageBlock
